@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký tư vấn</title>
+    <link rel="stylesheet" href="css/dangky.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="dichvu.html">DỊCH VỤ TƯ VẤN TÂM LÝ</a></li>
+                <li><a href="dangky.html">ĐĂNG KÝ TƯ VẤN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Form -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <h2>ĐĂNG KÝ TƯ VẤN</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Họ và tên (*):</label>
+                        <input type="text" name="fullName" id="fullName" class="form-control" placeholder="Nhập họ và tên">
+                        <span id="mes-user" class="mes-user"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Tên đăng nhập (*):</label>
+                        <input type="text" id="account" name="account" class="form-control" placeholder="Nhập tên đăng nhập ">
+                        <span id="mes-account" class="mes-account"></span>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="inputpass">Mật khẩu (*):</label>
+                            <input type="password" class="form-control" id="inputpass" placeholder="Nhập mật khẩu">
+                            <span id="mes-pass" class="mes-pass"></span>
+                          </div>
+                          <div class="form-group col-md-6 col-xs-12">
+                            <label for="inputCheckPass">Nhập lại mật khẩu (*):</label>
+                            <input type="password" class="form-control" id="inputCheckPass" placeholder="Nhập lại mật khẩu">
+                            <span id="check-password" class="check-password"></span>
+                          </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email (*):</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Nhập email">
+                        <span id="mes-email" class="mes-email"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Số điện thoại (*):</label>
+                        <input type="tel" name="phone" id="phone" class="form-control" placeholder="Nhập số điện thoại">
+                        <span id="mes-phone" class="mes-phone"></span>
+                    </div>
+                    <input type="submit" value="Đăng ký" id='signup' class="btn btn-primary">
+                </form>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <h2>HELLO WORLD</h2>
+            </div>
+        </div>
+    </div>
+    <div class="the-end">
+        <h2>© 2020 OPTIMA. All Rights Reserved.</h2>
+    </div>
+</body>
+</html>

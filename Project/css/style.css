@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+html {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #222;
+}
+#header {
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+#header .logo>img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+#header nav>ul {
+    display: flex;
+    margin: 0;
+}
+#header nav>ul>li {
+    list-style: none;
+}
+#header nav>ul>li>a {
+    display: inline-block;
+    padding: 0px 2rem;
+    font-size: 1.8rem;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#header nav>ul>li>a:hover {
+    color: #1db4c1;
+    text-decoration: none;
+}
+
+/* CSS PHẦN BANNER */
+#banner {
+    background: linear-gradient(rgba(41,37,91,0.5), rgba(41,37,91,0.5)),url(https://d37v7cqg82mgxu.cloudfront.net/img/community-campfire.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+#banner .row{
+    padding: 0 5rem;
+    position: relative;
+}
+.row .col-md-6>img{
+    width: 100%;
+    height: 100%;
+}
+.row .col-md-6 .text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+}
+.text-center h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.text-center h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.text-center p{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+/* CSS PHẦN ABOUT */
+#about{
+    padding: 4rem 5rem;
+}
+.col-md-7>h2 {
+    font-size: 3rem;
+    color: #337ab7;
+    letter-spacing: 0.1rem;
+}
+.col-md-7>p {
+    font-size: 1.8rem;
+    color: #222;
+}
+.col-md-5>img { 
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS PHẦN SERVICES */
+
+#services {
+    padding: 2rem 5rem;
+}
+#services .col-md-12 .text-center h2 {
+    width: 100%;
+    border-bottom: 0.1rem solid #000; 
+    line-height: 0.1em;
+    margin: 0 0 5rem 0;
+}
+#services .col-md-12 .text-center h2 span {
+    background:#fff; 
+    padding:0 1rem; 
+    color: #fd7e14;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#services .col-md-3 .img-services>img{
+    width: 100%;
+    border: 0.1rem solid #ccc;
+    box-shadow: 0.2rem 0.2rem 0.7rem red;
+}
+#services .col-md-3 .text-center>h3{
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 2rem 0;
+    color: #337ab7;
+}
+#services .col-md-3 .text-center>p{
+    font-size: 1.6rem;
+    color: #222;
+}
+
+/* CSS PHẦN TƯ VẤN */
+#tuvan {
+    background: #f6f8f9;
+}
+#tuvan .row {
+    padding: 4rem 5rem;
+}
+#tuvan .col-md-6 strong {
+    font-size: 1.6rem;
+}
+#tuvan .col-md-6 h2 {
+    font-size: 2.4rem;
+    margin: 2rem 0;
+    color: #666;
+}
+#tuvan .col-md-6 p {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    letter-spacing: 0.1rem;
+}
+#tuvan .col-md-6>img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.7rem #111;
+}
+/* CSS PHẦN FOOTER */
+#footer {
+    background-color: #110b40;
+}
+#footer .row {
+    padding: 4rem 5rem;
+}
+.row .col-md-3 .img-home{
+    display: block;
+}
+.row .col-md-3 a>img {
+    width: 100%;
+}
+.row .col-md-3>p {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: #ccc;
+}
+.row .col-md-3 .icon {
+    width: 5rem;
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: #fff;
+}
+.row .col-md-3 .icon-contact {
+    font-size: 2rem;
+    color: #fff;
+}
+#footer .row .col-md-3>h2 {
+    font-size: 1.8rem;
+    color: #fd7e14;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 3.1rem;
+}
+#footer .row .quick_link>a {
+    display: block;
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+    text-decoration: none;
+    color: #ccc;
+}
+#footer .row .quick_link>a:hover {
+    color: #337ab7;
+}
+.row .col-md-3 input[type="email"] {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #e5ae58;
+    border-radius: 0.5rem;
+    outline: none;
+}
+.row .col-md-3 textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 2rem 0;
+    height: 8rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #e5ae58;
+    border-radius: 0.5rem;
+    outline: none;
+}
+.row .col-md-3 .btn {
+    width: 10rem;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+.row .col-md-3 .btn:hover {
+    background-color: #f53e2d;
+    color: #000;
+}
+/* THE END */
+.the-end {
+    width: 100%;
+    height: 4rem;
+    background-color: #ccc;
+}
+.the-end h2 {
+    font-size: 1.6rem;
+    color: #222;
+    text-align: center;
+    line-height: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

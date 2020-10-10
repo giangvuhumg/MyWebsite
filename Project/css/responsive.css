@@ -1,0 +1,68 @@
+ @media only screen and (max-width: 768px) {
+    #header {
+        background-color: #ccc;
+    }
+    #header .logo>img {
+        display: none;
+    }
+    #header nav>ul>li>a {
+        font-size: 1.5rem;
+        padding : 0 1rem;
+        color: #222;
+        text-align: center;
+    }
+    /* Banner */
+    #banner .row .col-xs-12 .text-center{
+        display: none;
+    }
+    /* About */
+    #about .row .col-xs-12 .img1 {
+        display: none;
+    }
+    #about .col-xs-12 h2 {
+        font-size: 1.5rem;
+    }
+    #about .col-xs-12 p {
+        font-size: 1.2rem;
+    }
+    /* Services */
+    #services .row .col-xs-12 .text-center h2 span {
+        font-size: 1.5rem;
+    }
+    #services .row .col-xs-12 .text-center h3 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+    #services .row .col-xs-12 .text-center p {
+        font-size: 1.2rem;
+    }
+    /* Tu van */
+    #tuvan .row .col-xs-12 strong,h2 {
+        font-size: 1.5rem;
+    }
+    #tuvan .row .col-xs-12 p {
+        font-size: 1.2rem;
+    }
+    #tuvan .row .col-xs-12 img {
+        display: none;
+    }
+    /* Footer */
+    #footer .row .col-xs-12 >img {
+        width : 100%;
+        height: auto;
+    }
+    #footer .row .col-xs-12 p {
+        font-size: 1.2rem;
+    }
+    #footer .row .col-xs-12 .icon {
+        font-size: 2rem;
+        margin: 0rem;
+    }
+    #footer .row .quick_link {
+        display: none;
+    }
+    #footer .row .col-xs-12 h2 {
+        font-size : 1.5rem;
+        margin: 1rem 0;
+    }
+}
