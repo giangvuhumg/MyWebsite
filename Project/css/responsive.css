@@ -65,4 +65,65 @@
         font-size : 1.5rem;
         margin: 1rem 0;
     }
+
+    /* RESPOMSIVE TRANG GIỚI THIỆU */
+
+    #about {
+        padding: 2rem 4rem;
+    }
+    #mission .row{
+        padding: 2rem;
+        margin: 0;
+    }
+    #mission .row .col-xs-12 h2 {
+        font-size: 2rem;
+        color: #f53e2d;
+        text-align: center;
+    }
+    #mission .row .col-xs-12 p {
+        font-size: 1.2rem;
+    }
+    #muctieu {
+        padding: 2rem;
+        margin: 0;
+    }
+    #muctieu h2 {
+        font-size: 2rem;
+        color: #f53e2d;
+        text-align: center;
+    }
+    #muctieu .row .col-xs-12 p {
+        font-size: 1.2rem;
+    }
+    /* hoatdong */
+    #hoatdong {
+        padding: 2rem;
+        margin: 0;
+    }
+    #hoatdong .row .col-xs-12 h2 {
+        font-size: 2rem;
+        color: #f53e2d;
+        text-align: center;
+    }
+    #hoatdong .row .col-xs-12 b {
+        font-size: 1.2rem;
+    }
+    #hoatdong .row .col-xs-12 li {
+        font-size: 1.2rem;
+    }
+    /* camket */
+    #camket {
+        padding: 2rem;
+        margin: 0;
+    }
+    #camket .row .col-md-12 h2 {
+        font-size: 2rem;
+        color: #f53e2d;
+        text-align: center;
+    }
+    #camket .row .col-md-12 p {
+        font-size: 1.2rem;
+    }
 }
+
+

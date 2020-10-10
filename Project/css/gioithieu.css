@@ -43,11 +43,11 @@ html {
 }
 /* ABOUT */
 #about{
-    padding: 4rem 10rem;
+    padding: 4rem 5rem;
 }
 .col-md-7>h2 {
     font-size: 3rem;
-    color: #337ab7;
+    color: #f53e2d;
     letter-spacing: 0.1rem;
 }
 .col-md-7>p {
@@ -61,7 +61,8 @@ html {
 }
 /* SỨ MÊNH */
 #mission .row{
-    padding: 4rem 10rem;
+    padding: 4rem 5rem;
+    margin: 0 5rem;
 }
 #mission .row .col-md-6 h2 {
     font-size: 3rem;
@@ -80,7 +81,8 @@ html {
 }
 /* Mục tiêu */
 #muctieu {
-    padding: 4rem 10rem;
+    padding: 4rem 5rem;
+    margin: 0 5rem;
 }
 #muctieu h2 {
    font-size: 3rem;
@@ -106,3 +108,29 @@ html {
     font-size: 1.8rem;
     margin: 1rem 0;
 }
+
+/* Cam kết */
+#camket {
+    padding: 2rem 5rem;
+    margin: 0 5rem;
+}
+#camket .row .col-md-12 h2 {
+    font-size: 3rem;
+    color: #f53e2d;
+}
+#camket .row .col-md-12 p {
+    font-size: 1.8rem;
+}
+/* THE END */
+.the-end {
+    width: 100%;
+    height: 4rem;
+    background-color: #ccc;
+}
+.the-end h2 {
+    font-size: 1.6rem;
+    color: #222;
+    text-align: center;
+    line-height: 4rem;
+}
+
