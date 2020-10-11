@@ -15,19 +15,19 @@ document.addEventListener('DOMContentLoaded',function(){
             document.getElementById('mes-account').innerHTML = "";
         }
     }
-    document.getElementById('password').onkeyup = function(){
-        if(document.getElementById('password').value ==""){
+    document.getElementById('inputpass').onkeyup = function(){
+        if(document.getElementById('inputpass').value ==""){
             document.getElementById('mes-pass').innerHTML = 'Bạn không được để trống mật khẩu';
             document.getElementById('mes-pass').style.color = "red";
-        }else if(document.getElementById('password').value.length < 6){
+        }else if(document.getElementById('inputpass').value.length < 6){
             document.getElementById('mes-pass').innerHTML = 'Mật khẩu phải trên 6 kí tự';
             document.getElementById('mes-pass').style.color = 'red';
         }else{
             document.getElementById('mes-pass').innerHTML = "";
         }
     }
-    document.getElementById('check-pass').onkeyup = function(){
-        if(document.getElementById('password').value != document.getElementById('check-pass').value){
+    document.getElementById('inputCheckPass').onkeyup = function(){
+        if(document.getElementById('inputpass').value != document.getElementById('inputCheckPass').value){
             document.getElementById('check-password').innerHTML = "Mật khẩu không trùng khớp";
             document.getElementById('check-password').style.color = 'red';
         }else{               

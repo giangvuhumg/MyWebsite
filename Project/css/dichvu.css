@@ -15,11 +15,11 @@ html {
     justify-content: space-around;
     align-items: center;
     z-index: 1000;
-    box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 0.8rem 0.6rem -0.6rem black;
 }
 #header .logo>img {
     width: 100%;
-    height: auto;
+    height: 100%;
     cursor: pointer;
 }
 #header nav>ul {
@@ -40,4 +40,131 @@ html {
 #header nav>ul>li>a:hover {
     color: #1db4c1;
     text-decoration: none;
+}
+/* DỊCH VỤ */
+#about {
+    width: 100%;
+    display: flex;
+    padding: 4rem 10rem;
+}
+#about .about__content {
+    width: 50%;
+}
+#about .about__img {
+    width: 50%;
+}
+.about__content h3 {
+    font-size: 1.6rem;
+    line-height:4rem;
+}
+.about__content h2 {
+    font-size: 3rem;
+    color: #f53e2d;
+    line-height: 6rem;
+}
+.about__content p {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+}
+#about .wrapper {
+    width: 100%;
+    display: flex;
+}
+#about .wrapper .start_count {
+    width: 30%;
+}
+.wrapper .start_count .start_count_wrapper {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 500;
+    color: #2d88ff;
+}
+.wrapper .start_count .start_wrapper {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* CSS SERVICES */
+
+#services {
+    padding: 40px;
+}
+#services h2 {
+    text-align: center;
+    color: #fd7e14;
+    font-size: 3rem;
+}
+.services-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.services-container>.services-content {
+    width: 25%;
+    padding: 1rem;
+}
+.services-content>img {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ccc;
+    box-shadow: 0.2rem 0.2rem 0.7rem red;
+}
+.services-content h3 {
+    margin: 1.5rem 0;
+    text-align: center;
+    font-size: 2rem;
+    color: #337ab7;
+}
+.services-content p {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#bienphap {
+    border-top: 1px solid #ccc;
+    padding: 4rem 5rem;
+}
+#bienphap h2 {
+    color: #fd7e14;
+    font-size: 3rem;
+}
+#bienphap .row .col-md-12 p {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+/* Chuyên gia */
+#chuyengia {
+    background-color: #f6f8f9;
+    border-top: 1px solid #ccc;
+}
+#chuyengia .row{
+    padding: 4rem 5rem;
+}
+#chuyengia .row .col-md-4 h3 {
+    font-size: 1.6rem;
+}
+#chuyengia .row .col-md-4 h2 {
+    font-size: 2rem;
+    color: #fd7e14;
+    margin-top: 1rem;
+}
+#chuyengia .row .col-md-8 p {
+    font-size: 1.8rem;
+}
+#chuyengia .row .col-md-4 {
+    width: 100%;
+}
+#chuyengia .row .col-md-4 img {
+    width: 100%;
+    height: auto;
+    
+}
+#chuyengia .row .col-md-4 h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 2rem;
 }
