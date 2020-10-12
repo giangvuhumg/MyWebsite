@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 html {
     font-size: 62.5%;
 }
@@ -7,6 +7,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     color: #222;
+    font-family: 'Lato', sans-serif;
 }
 #header {
     width: 100%;
@@ -121,6 +122,78 @@ html {
 #camket .row .col-md-12 p {
     font-size: 1.8rem;
 }
+/* CSS PHẦN FOOTER */
+#footer {
+    background-color: #110b40;
+}
+#footer .row {
+    padding: 4rem 5rem;
+}
+.row .col-md-3 .img-home{
+    display: block;
+}
+.row .col-md-3 a>img {
+    width: 100%;
+}
+.row .col-md-3>p {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: #ccc;
+}
+.row .col-md-3 .icon {
+    width: 5rem;
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: #fff;
+}
+.row .col-md-3 .icon-contact {
+    font-size: 2rem;
+    color: #fff;
+}
+#footer .row .col-md-3>h2 {
+    font-size: 1.8rem;
+    color: #fd7e14;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 3.1rem;
+}
+#footer .row .quick_link>a {
+    display: block;
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+    text-decoration: none;
+    color: #ccc;
+}
+#footer .row .quick_link>a:hover {
+    color: #337ab7;
+}
+.row .col-md-3 input[type="email"] {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #e5ae58;
+    border-radius: 0.5rem;
+    outline: none;
+}
+.row .col-md-3 textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 2rem 0;
+    height: 8rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #e5ae58;
+    border-radius: 0.5rem;
+    outline: none;
+}
+.row .col-md-3 .btn {
+    width: 10rem;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+.row .col-md-3 .btn:hover {
+    background-color: #f53e2d;
+    color: #000;
+}
 /* THE END */
 .the-end {
     width: 100%;
@@ -133,4 +206,10 @@ html {
     text-align: center;
     line-height: 4rem;
 }
+
+
+
+
+
+
 

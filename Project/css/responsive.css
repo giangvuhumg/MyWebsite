@@ -124,6 +124,84 @@
     #camket .row .col-md-12 p {
         font-size: 1.2rem;
     }
+
+    /* Responsive trang dịch vụ */
+    #about {
+        width: 100%;
+        padding: 2rem;
+    }
+    #about .about__content {
+        width : 100%;
+    }
+    #about .about__img {
+        display: none;
+    }
+    .about__content h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .about__content h2 {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .about__content p {
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+    }
+    .wrapper .start_count .start_count_wrapper {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .wrapper .start_count .start_wrapper {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    /* SERVICES */
+    #services h2 {
+        font-size: 2rem;
+    }
+
+    .services-container {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .services-container>.services-content {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .services-content p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    /*  */
+    #bienphap {
+        padding: 2rem;
+    }
+    #bienphap h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    #bienphap .row .col-xs-12 p {
+        font-size: 1.2rem;
+    }
+    /*  */
+    #chuyengia .row {
+        padding: 2rem;
+    }
+    #chuyengia .row .col-xs-12 h3{
+        font-size: 1.2rem;
+    }
+    #chuyengia .row .col-xs-12 h2{
+        font-size: 2rem;
+        text-align: left;
+    }
+    #chuyengia .row .col-xs-12 p {
+        font-size: 1.2rem;
+    }
 }
 
 
