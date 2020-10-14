@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html {
     font-size: 62.5%;
 }
@@ -7,7 +8,6 @@ html {
     padding: 0;
     box-sizing: border-box;
     color: #666;
-    font-family: 'Lato', sans-serif;
 }
 #header {
     width: 100%;
@@ -37,6 +37,7 @@ html {
     color: #222;
     text-transform: uppercase;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 #header nav>ul>li>a:hover {
     color: #1db4c1;
@@ -50,11 +51,13 @@ html {
     font-size: 3rem;
     color: #f53e2d;
     letter-spacing: 0.1rem;
+    font-family: 'Roboto', sans-serif;
 }
 .col-md-7>p {
     font-size: 1.8rem;
     color: #222;
     letter-spacing: 1px;
+    font-family: "Oscine";
 }
 .col-md-5>img { 
     width: 100%;
@@ -68,11 +71,13 @@ html {
 #mission .row .col-md-6 h2 {
     font-size: 3rem;
     color: #f53e2d;
+    font-family: 'Roboto', sans-serif;
 }
 #mission .row .col-md-6 p {
     font-size: 1.8rem;
     margin: 1rem 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
+    font-family: "Oscine";
 }
 #mission .row .col-md-6 img {
     width: 100%;
@@ -88,10 +93,12 @@ html {
 #muctieu h2 {
    font-size: 3rem;
    color: #f53e2d;
+   font-family: 'Roboto', sans-serif;
 }
 #muctieu .row .col-md-12 p {
     font-size: 1.8rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
+    font-family: "Oscine";
 }
 /* Hoạt động */
 #hoatdong {
@@ -100,14 +107,17 @@ html {
 #hoatdong .row .col-md-12 h2 {
     font-size: 3rem;
     color: #f53e2d;
+    font-family: 'Roboto', sans-serif;
 }
 #hoatdong .row .col-md-12 b {
     font-size: 1.8rem;
     color: #222;
+    font-family: 'Roboto', sans-serif;
 }
 #hoatdong .row .col-md-12 li {
     font-size: 1.8rem;
     margin: 1rem 0;
+    font-family: "Oscine";
 }
 
 /* Cam kết */
@@ -118,9 +128,11 @@ html {
 #camket .row .col-md-12 h2 {
     font-size: 3rem;
     color: #f53e2d;
+    font-family: 'Roboto', sans-serif;
 }
 #camket .row .col-md-12 p {
     font-size: 1.8rem;
+    font-family: "Oscine";
 }
 /* CSS PHẦN FOOTER */
 #footer {
@@ -139,6 +151,7 @@ html {
     margin-top: 1rem;
     font-size: 1.6rem;
     color: #ccc;
+    font-family: "Oscine";
 }
 .row .col-md-3 .icon {
     width: 5rem;
@@ -156,6 +169,7 @@ html {
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: 3.1rem;
+    font-family: 'Roboto', sans-serif;
 }
 #footer .row .quick_link>a {
     display: block;
@@ -205,6 +219,7 @@ html {
     color: #222;
     text-align: center;
     line-height: 4rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 

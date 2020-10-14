@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html {
     font-size: 62.5%;
 }
@@ -7,7 +8,6 @@ html {
     padding: 0;
     box-sizing: border-box;
     color: #666;
-    font-family: 'Lato', sans-serif;
 }
 #header {
     width: 100%;
@@ -37,6 +37,7 @@ html {
     color: #222;
     text-transform: uppercase;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 #header nav>ul>li>a:hover {
     color: #1db4c1;
@@ -57,16 +58,19 @@ html {
 .about__content h3 {
     font-size: 1.6rem;
     line-height:4rem;
+    font-family: 'Roboto', sans-serif;
 }
 .about__content h2 {
     font-size: 3rem;
     color: #f53e2d;
     line-height: 6rem;
+    font-family: 'Roboto', sans-serif;
 }
 .about__content p {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     line-height: 3rem;
+    font-family: "Oscine";
 }
 #about .wrapper {
     width: 100%;
@@ -90,12 +94,13 @@ html {
 /* CSS SERVICES */
 
 #services {
-    padding: 40px;
+    padding: 4rem;
 }
 #services h2 {
     text-align: center;
     color: #fd7e14;
     font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
 }
 .services-container {
     margin-top: 2rem;
@@ -118,10 +123,12 @@ html {
     text-align: center;
     font-size: 2rem;
     color: #337ab7;
+    font-family: 'Roboto', sans-serif;
 }
 .services-content p {
     text-align: center;
     font-size: 1.8rem;
+    font-family: "Oscine";
 }
 
 #bienphap {
@@ -131,10 +138,12 @@ html {
 #bienphap h2 {
     color: #fd7e14;
     font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
 }
 #bienphap .row .col-md-12 p {
     font-size: 1.8rem;
     margin-top: 1rem;
+    font-family: "Oscine";
 }
 
 /* Chuyên gia */
@@ -147,14 +156,17 @@ html {
 }
 #chuyengia .row .col-md-4 h3 {
     font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
 }
 #chuyengia .row .col-md-4 h2 {
     font-size: 2rem;
     color: #fd7e14;
+    font-family: 'Roboto', sans-serif;
     margin-top: 1rem;
 }
 #chuyengia .row .col-md-8 p {
     font-size: 1.8rem;
+    font-family: "Oscine";
 }
 #chuyengia .row .col-md-4 {
     width: 100%;
@@ -168,6 +180,7 @@ html {
     text-align: center;
     font-size: 1.8rem;
     margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 /* CSS PHẦN FOOTER */
 #footer {
@@ -186,6 +199,7 @@ html {
     margin-top: 1rem;
     font-size: 1.6rem;
     color: #ccc;
+    font-family: "Oscine";
 }
 .row .col-md-3 .icon {
     width: 5rem;
@@ -203,6 +217,7 @@ html {
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: 3.1rem;
+    font-family: 'Roboto', sans-serif;
 }
 #footer .row .quick_link>a {
     display: block;
@@ -252,6 +267,7 @@ html {
     color: #222;
     text-align: center;
     line-height: 4rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 

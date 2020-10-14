@@ -1,5 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url(//db.onlinewebfonts.com/c/54a22c3406bfcc9dcda80a1f8f2ff578?family=Oscine);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html {
     font-size: 62.5%;
 }
@@ -8,7 +8,6 @@ html {
     padding: 0;
     box-sizing: border-box;
     color: #666;
-    font-family: 'Lato', sans-serif;
 }
 #header {
     width: 100%;
@@ -37,6 +36,7 @@ html {
     color: #222;
     text-transform: uppercase;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 #header nav>ul>li>a:hover {
     color: #1db4c1;
@@ -74,14 +74,17 @@ html {
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 3rem;
+    font-family: 'Roboto', sans-serif;
 }
 .text-center h1{
     color: #fff;
     font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
 }
 .text-center p{
     color: #fff;
     font-size: 1.8rem;
+    font-family: "Oscine";
 }
 
 /* CSS PHẦN ABOUT */
@@ -92,10 +95,12 @@ html {
     font-size: 3rem;
     color: #337ab7;
     letter-spacing: 0.1rem;
+    font-family: 'Roboto', sans-serif;
 }
 .col-md-7>p {
     font-size: 1.8rem;
     color: #222;
+    font-family: "Oscine";
 }
 .col-md-5>img { 
     width: 100%;
@@ -112,6 +117,7 @@ html {
     border-bottom: 0.1rem solid #000; 
     line-height: 0.1em;
     margin: 0 0 5rem 0;
+    font-family: 'Roboto', sans-serif;
 }
 #services .col-md-12 .text-center h2 span {
     background:#fff; 
@@ -119,6 +125,7 @@ html {
     color: #fd7e14;
     font-size: 3rem;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 #services .col-md-3 .img-services>img{
@@ -131,10 +138,12 @@ html {
     font-weight: 500;
     margin: 2rem 0;
     color: #337ab7;
+    font-family: 'Roboto', sans-serif;
 }
 #services .col-md-3 .text-center>p{
     font-size: 1.6rem;
     color: #222;
+    font-family: "Oscine";
 }
 
 /* CSS PHẦN TƯ VẤN */
@@ -151,11 +160,13 @@ html {
     font-size: 2.4rem;
     margin: 2rem 0;
     color: #666;
+    font-family: 'Roboto', sans-serif;
 }
 #tuvan .col-md-6 p {
     font-size: 1.6rem;
     margin: 2rem 0;
     letter-spacing: 0.1rem;
+    font-family: "Oscine";
 }
 #tuvan .col-md-6>img {
     width: 100%;
@@ -180,6 +191,7 @@ html {
     margin-top: 1rem;
     font-size: 1.6rem;
     color: #ccc;
+    font-family: "Oscine";
 }
 .row .col-md-3 .icon {
     width: 5rem;
@@ -197,6 +209,7 @@ html {
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: 3.1rem;
+    font-family: 'Roboto', sans-serif;
 }
 #footer .row .quick_link>a {
     display: block;
@@ -246,6 +259,7 @@ html {
     color: #222;
     text-align: center;
     line-height: 4rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
